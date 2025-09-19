@@ -12,7 +12,6 @@ def bfs(graph, start):
                 if neighbor not in visited:
                     queue.append(neighbor)
 
-# Example
 graph = {
     'A': ['B', 'C'],
     'B': ['D'],
